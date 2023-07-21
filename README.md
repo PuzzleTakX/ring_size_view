@@ -2,6 +2,10 @@
 
 A Flutter package that provides a custom widget for calculating and displaying ring sizes.
 
+# Demo
+
+![image demo](demo/demo.jpg)
+
 ## Installation
 
 To use this package, add `ring_size_view` as a dependency in your `pubspec.yaml` file.
