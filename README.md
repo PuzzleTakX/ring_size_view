@@ -17,6 +17,23 @@ Usage
 
 ````import 'package:ring_size_view/ring_size_view.dart';````
 
+
+## Calculation Functions
+
+The `calculateCircumference`, `calculateRadius`, and `calculateDiameter` functions are used in the `RingSizeView` widget to perform calculations and update the corresponding values.
+
+### `calculateCircumference(value)`
+
+This function is called when the user interacts with the `RingSizeView` widget and updates the value of `circumference`. It takes the calculated circumference value as an argument and updates the `circumference` variable. For example:
+
+```dart
+calculateCircumference(double value) {
+  circumference = value;
+  print("Info calculateCircumference : $value");
+}
+````
+
+
 Features
 
     Calculate ring diameter, circumference, and radius.
