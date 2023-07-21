@@ -13,7 +13,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.4
+  cupertino_icons: ^1.0.5
   ring_size_view:
     path: ../
 dev_dependencies:
