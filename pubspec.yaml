@@ -3,7 +3,7 @@ description: This library is designed to measure loops with standard dimensions.
 version: 1.0.0
 author: PuzzleTak
 homepage: https://puzzletak.ir
-repository: https://github.com/your-username/your-repository
+repository: https://github.com/PuzzleTakX/ring_size_view
 
 environment:
   sdk: '>=3.0.6 <4.0.0'

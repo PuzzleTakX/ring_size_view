@@ -4,9 +4,9 @@ import 'package:ring_size_view/ring_size_view.dart';
 
 void main() {
   test('adds one to input values', () {
-    final calculator = Calculator();
-    expect(calculator.addOne(2), 3);
-    expect(calculator.addOne(-7), -6);
-    expect(calculator.addOne(0), 1);
+    return RingSizeView(ringSize: 6.5, calculateDiameter: (e){},
+        calculateRadius: (e){},
+        calculateCircumference: (e){},
+        height: 190, width: 190);
   });
 }
