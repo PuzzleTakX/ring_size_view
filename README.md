@@ -18,6 +18,38 @@ Usage
 ````import 'package:ring_size_view/ring_size_view.dart';````
 
 
+## RingSizeView Widget
+
+The `RingSizeView` widget is a custom Flutter widget provided by the `ring_size_view` package. It is designed to calculate and display the size information of a ring based on the user's input.
+
+### Properties
+
+- `ringSize`: A double value representing the current ring size. This value is used to calculate the diameter, circumference, and radius of the ring. You can bind this value to a slider or any other input widget to allow the user to adjust the ring size.
+
+- `calculateDiameter(value)`: A callback function that is called when the ring size is adjusted by the user. It receives the calculated diameter value as an argument. You can use this function to update the diameter value in your app.
+
+- `calculateRadius(value)`: A callback function that is called when the ring size is adjusted. It receives the calculated radius value as an argument. You can use this function to perform any additional actions based on the radius value.
+
+- `calculateCircumference(value)`: A callback function that is called when the ring size is adjusted. It receives the calculated circumference value as an argument. You can use this function to update the circumference value in your app.
+
+- `height`: A double value representing the height of the `RingSizeView` widget.
+
+- `width`: A double value representing the width of the `RingSizeView` widget.
+
+### Example Usage
+
+```dart
+RingSizeView(
+ringSize: ringSize,
+calculateDiameter: calculateDiameter,
+calculateRadius: calculateRadius,
+calculateCircumference: calculateCircumference,
+height: 190,
+width: 190,
+)
+````
+
+
 ## Calculation Functions
 
 The `calculateCircumference`, `calculateRadius`, and `calculateDiameter` functions are used in the `RingSizeView` widget to perform calculations and update the corresponding values.
