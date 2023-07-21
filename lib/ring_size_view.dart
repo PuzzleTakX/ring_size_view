@@ -38,7 +38,7 @@ class _RingSizeViewState extends State<RingSizeView> {
 
   Color backgroundColor = Colors.grey;
   TextDirection textDirection = TextDirection.ltr;
-  TextStyle textStyle = TextStyle(color:  Colors.black,fontSize: 12);
+  TextStyle textStyle = const TextStyle(color:  Colors.black,fontSize: 12);
 
 
   init(){
@@ -86,15 +86,15 @@ class _RingSizeViewState extends State<RingSizeView> {
       child: Center(
         child: Stack(
           children: [
-            Container(
+            SizedBox(
               width: double.maxFinite,
               height: double.maxFinite,
               child: GridView.builder(
                 itemCount: 1000,
                 shrinkWrap: true,
-                physics: NeverScrollableScrollPhysics(),
+                physics: const NeverScrollableScrollPhysics(),
                 controller: ScrollController(initialScrollOffset: 30),
-                gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                     crossAxisCount: 15,
                     crossAxisSpacing: 0.0,
                     mainAxisSpacing: 0.0
@@ -113,27 +113,27 @@ class _RingSizeViewState extends State<RingSizeView> {
             Column(
               children: [
 
-                Spacer(),
+                const Spacer(),
                 Container(width: double.maxFinite,height: 0.9,color: backgroundColor,),
-                Container(
+                SizedBox(
                   width:  (diameter * (6.100)),
                   height:  (diameter * (6.100)),
                 ),
                 Container(width: double.maxFinite,height: 0.9,color: backgroundColor,),
-                Spacer(),
+                const Spacer(),
               ],
             ),
             Row(
               children: [
 
-                Spacer(),
+                const Spacer(),
                 Container(width: 0.9,height: double.maxFinite,color: backgroundColor,),
-                Container(
+                SizedBox(
                   width:  (diameter * (6.100)),
                   height:  (diameter * (6.100)),
                 ),
                 Container(width: 0.9,height: double.maxFinite,color: backgroundColor,),
-                Spacer(),
+                const Spacer(),
               ],
             ),
             Center(child: Container(

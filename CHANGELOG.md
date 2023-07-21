@@ -1,10 +1,10 @@
-# Ring Size View
+# Ring Size View version 1.0.2
 
 A Flutter package that provides a custom widget for calculating and displaying ring sizes.
 
-# Demo
+# Demo new
 
-<img src="demo/demo.jpg" alt="نام تصویر" width="300" height="700">
+<img src="demo/demo.jpg" alt="image_demo" width="300" height="700">
 
 
 ## Installation
