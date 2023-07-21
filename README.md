@@ -5,7 +5,7 @@ A Flutter package that provides a custom widget for calculating and displaying r
 # Demo
 
 
-![image demo](demo/demo.jpg)
+<img src="demo/demo.jpg" alt="نام تصویر" width="300" height="200">
 
 ## Installation
 
