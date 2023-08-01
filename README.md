@@ -5,7 +5,7 @@ A Flutter package that provides a custom widget for calculating and displaying r
 ## Demo new
 
 
-<img src="demo/demo.jpg" alt="image_demo" width="300" height="700">
+<img src="[demo/demo.jpg](https://github.com/PuzzleTakX/ring_size_view/blob/master/demo/demo.jpg)" alt="image_demo" width="300" height="700">
 
 ## Installation
 
