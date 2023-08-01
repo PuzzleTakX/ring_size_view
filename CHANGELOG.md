@@ -1,4 +1,4 @@
-# Ring Size View version 1.0.7
+# Ring Size View version 1.0.8
 
 A Flutter package that provides a custom widget for calculating and displaying ring sizes.
 
@@ -16,7 +16,7 @@ To use this package, add `ring_size_view` as a dependency in your `pubspec.yaml`
 dependencies:
   flutter:
     sdk: flutter
-  ring_size_view: ^1.0.7 # Use the latest version from pub.dev
+  ring_size_view: ^1.0.8 # Use the latest version from pub.dev
   ````
 
 Usage
