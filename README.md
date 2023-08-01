@@ -1,11 +1,11 @@
-# Ring Size View version 1.0.5
+# Ring Size View version 1.0.7
 
 A Flutter package that provides a custom widget for calculating and displaying ring sizes.
 
 ## Demo new
 
 
-<img src="https://github.com/PuzzleTakX/ring_size_view/blob/master/demo/demo.jpg" alt="image_demo" width="300" height="700">
+<img src="https://github.com/PuzzleTakX/ring_size_view/blob/master/demo/demo.jpg?raw=true" alt="image_demo" width="300" height="700">
 
 
 ## Installation
@@ -16,7 +16,7 @@ To use this package, add `ring_size_view` as a dependency in your `pubspec.yaml`
 dependencies:
   flutter:
     sdk: flutter
-  ring_size_view: ^1.0.0 # Use the latest version from pub.dev
+  ring_size_view: ^1.0.7 # Use the latest version from pub.dev
   ````
 
 Usage
@@ -71,6 +71,14 @@ calculateCircumference(double value) {
 }
 ````
 
+* ring size
+* ring size view
+* flutter
+* puzzletak
+
+## Tags
+
+<meta name="keywords" content="ring size, ring size view, flutter, puzzletak">
 
 Features
 

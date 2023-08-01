@@ -16,6 +16,7 @@ dependencies:
   cupertino_icons: ^1.0.5
   ring_size_view:
     path: ../
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
