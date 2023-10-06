@@ -1,4 +1,7 @@
-# Ring Size View version 1.0.8
+# Ring Size View version 1.0.9
+
+[![pub package](https://img.shields.io/pub/v/ring_size_view.svg)](https://pub.dev/packages/ring_size_view)
+[![pub points](https://img.shields.io/pub/points/ring_size_view?color=2E8B57&label=pub%20points)](https://pub.dev/packages/ring_size_view/score)
 
 A Flutter package that provides a custom widget for calculating and displaying ring sizes.
 
@@ -11,12 +14,12 @@ A Flutter package that provides a custom widget for calculating and displaying r
 ## Installation
 
 To use this package, add `ring_size_view` as a dependency in your `pubspec.yaml` file.
-
+[![pub package](https://img.shields.io/pub/v/ring_size_view.svg)](https://pub.dev/packages/ring_size_view)
 ```yaml
 dependencies:
   flutter:
     sdk: flutter
-  ring_size_view: ^1.0.8 # Use the latest version from pub.dev
+  ring_size_view: ^1.0.9 # Use the latest version from pub.dev
   ````
 
 Usage

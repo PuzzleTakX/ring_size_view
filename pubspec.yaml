@@ -1,11 +1,11 @@
 name: ring_size_view
-description: This library is designed to measure loops with standard dimensions. It provides a set of functions to accurately measure the size of loops and provides standardized results. With this library, developers can easily quantify the performance of their loops and optimize their code accordingly. It offers support for various loop types and provides consistent measurements across different platforms. Simplify your loop analysis and optimization process with this powerful loop measurement library!
-version: 1.0.8
-homepage: https://puzzletak.ir
+description: Simplify loop analysis with this powerful measurement library.
+version: 1.0.9
+homepage: https://github.com/PuzzleTakX
 repository: https://github.com/PuzzleTakX/ring_size_view
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: '>=2.12.2 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:

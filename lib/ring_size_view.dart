@@ -16,7 +16,7 @@ class RingSizeView extends StatefulWidget {
   final double ringSize;
   final double width;
   final double height;
-  const RingSizeView({super.key,
+  const RingSizeView({Key? key, 
      this.backgroundColor,
      this.textDirection,
     required this.ringSize,
@@ -26,7 +26,7 @@ class RingSizeView extends StatefulWidget {
     required this.calculateCircumference,
     required this.height,
     required this.width,
-  });
+  }) : super(key: key);
 
   @override
   State<RingSizeView> createState() => _RingSizeViewState();
